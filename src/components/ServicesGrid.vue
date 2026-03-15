@@ -104,14 +104,16 @@ const serviceItems = computed(() => props.services ?? defaultServices)
 
 .service-card {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.3s ease,
+    color 0.3s ease;
   cursor: default;
 }
 
 .service-card:hover,
 .service-card:focus-visible {
   transform: scale(1.05);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24) !important;
+  box-shadow: 0 8px 32px var(--shadow-color) !important;
 }
 
 .service-card:focus-visible {

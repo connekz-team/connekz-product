@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TestimonialsCarousel > renders correctly 1`] = `
+"<section data-v-f911f2f2="" class="testimonials-section" role="region" aria-labelledby="testimonials-heading">
+  <div data-v-f911f2f2="" class="testimonials-container">
+    <h2 data-v-f911f2f2="" id="testimonials-heading" class="text-h4 font-weight-bold text-center mb-10"> What Our Clients Say </h2>
+    <div data-v-f911f2f2="" data-testid="carousel" class="testimonials-carousel">
+      <div data-v-f911f2f2="" class="testimonials-track" style="transform: translateX(-0%);">
+        <div data-v-f911f2f2="" class="testimonials-slide">
+          <div data-v-f911f2f2="" class="pa-8 pa-md-12 text-center" elevation="0" rounded="xl"><img data-v-f911f2f2="" src="https://via.placeholder.com/60x60?text=AC" alt="Acme Corp logo" class="testimonials-logo mx-auto mb-6" width="60" height="60" loading="lazy">
+            <blockquote data-v-f911f2f2="" class="text-h6 text-md-h5 font-weight-light font-italic text-medium-emphasis mb-6"> "This platform completely transformed how our team collaborates. The results have been incredible." </blockquote>
+            <p data-v-f911f2f2="" class="text-body-1 font-weight-bold mb-1">Sarah Chen</p>
+            <p data-v-f911f2f2="" class="text-body-2 text-primary font-weight-medium">CTO, Acme Corp</p>
+          </div>
+        </div>
+        <div data-v-f911f2f2="" class="testimonials-slide">
+          <div data-v-f911f2f2="" class="pa-8 pa-md-12 text-center" elevation="0" rounded="xl"><img data-v-f911f2f2="" src="https://via.placeholder.com/60x60?text=TF" alt="TechFlow Inc logo" class="testimonials-logo mx-auto mb-6" width="60" height="60" loading="lazy">
+            <blockquote data-v-f911f2f2="" class="text-h6 text-md-h5 font-weight-light font-italic text-medium-emphasis mb-6"> "We saw a 40% increase in productivity within the first month. Truly a game-changer for us." </blockquote>
+            <p data-v-f911f2f2="" class="text-body-1 font-weight-bold mb-1">James Wilson</p>
+            <p data-v-f911f2f2="" class="text-body-2 text-primary font-weight-medium">VP of Engineering, TechFlow Inc</p>
+          </div>
+        </div>
+        <div data-v-f911f2f2="" class="testimonials-slide">
+          <div data-v-f911f2f2="" class="pa-8 pa-md-12 text-center" elevation="0" rounded="xl"><img data-v-f911f2f2="" src="https://via.placeholder.com/60x60?text=IL" alt="Innovate Labs logo" class="testimonials-logo mx-auto mb-6" width="60" height="60" loading="lazy">
+            <blockquote data-v-f911f2f2="" class="text-h6 text-md-h5 font-weight-light font-italic text-medium-emphasis mb-6"> "The customer support is outstanding. Every issue was resolved quickly and professionally." </blockquote>
+            <p data-v-f911f2f2="" class="text-body-1 font-weight-bold mb-1">Maria Garcia</p>
+            <p data-v-f911f2f2="" class="text-body-2 text-primary font-weight-medium">Product Manager, Innovate Labs</p>
+          </div>
+        </div>
+        <div data-v-f911f2f2="" class="testimonials-slide">
+          <div data-v-f911f2f2="" class="pa-8 pa-md-12 text-center" elevation="0" rounded="xl"><img data-v-f911f2f2="" src="https://via.placeholder.com/60x60?text=C9" alt="CloudNine Solutions logo" class="testimonials-logo mx-auto mb-6" width="60" height="60" loading="lazy">
+            <blockquote data-v-f911f2f2="" class="text-h6 text-md-h5 font-weight-light font-italic text-medium-emphasis mb-6"> "Seamless integration with our existing tools. Our developers loved the clean API design." </blockquote>
+            <p data-v-f911f2f2="" class="text-body-1 font-weight-bold mb-1">David Park</p>
+            <p data-v-f911f2f2="" class="text-body-2 text-primary font-weight-medium">Lead Developer, CloudNine Solutions</p>
+          </div>
+        </div>
+        <div data-v-f911f2f2="" class="testimonials-slide">
+          <div data-v-f911f2f2="" class="pa-8 pa-md-12 text-center" elevation="0" rounded="xl"><img data-v-f911f2f2="" src="https://via.placeholder.com/60x60?text=BV" alt="Bright Ventures logo" class="testimonials-logo mx-auto mb-6" width="60" height="60" loading="lazy">
+            <blockquote data-v-f911f2f2="" class="text-h6 text-md-h5 font-weight-light font-italic text-medium-emphasis mb-6"> "The best investment we made this year. ROI was visible within weeks of deployment." </blockquote>
+            <p data-v-f911f2f2="" class="text-body-1 font-weight-bold mb-1">Emily Thompson</p>
+            <p data-v-f911f2f2="" class="text-body-2 text-primary font-weight-medium">CEO, Bright Ventures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-v-f911f2f2="" class="testimonials-dots" role="tablist" aria-label="Testimonial navigation"><button data-v-f911f2f2="" role="tab" aria-selected="true" aria-label="Go to testimonial 1" class="testimonials-dot testimonials-dot--active"></button><button data-v-f911f2f2="" role="tab" aria-selected="false" aria-label="Go to testimonial 2" class="testimonials-dot"></button><button data-v-f911f2f2="" role="tab" aria-selected="false" aria-label="Go to testimonial 3" class="testimonials-dot"></button><button data-v-f911f2f2="" role="tab" aria-selected="false" aria-label="Go to testimonial 4" class="testimonials-dot"></button><button data-v-f911f2f2="" role="tab" aria-selected="false" aria-label="Go to testimonial 5" class="testimonials-dot"></button></div>
+  </div>
+</section>"
+`;

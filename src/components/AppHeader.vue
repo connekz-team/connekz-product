@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useTheme, useDisplay } from 'vuetify'
+import { useDisplay } from 'vuetify'
+import ThemeToggle from './ThemeToggle.vue'
 
 const props = defineProps({
   activePage: {
@@ -11,7 +12,6 @@ const props = defineProps({
 
 const emit = defineEmits(['navigate'])
 
-const theme = useTheme()
 const display = useDisplay()
 
 const isDrawerOpen = ref(false)
@@ -23,10 +23,6 @@ const navItems = [
   { title: 'Services', icon: 'mdi-cog' },
   { title: 'Contact', icon: 'mdi-email' },
 ]
-
-function toggleTheme() {
-  theme.global.name.value = theme.global.name.value === 'light' ? 'dark' : 'light'
-}
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 50
@@ -43,8 +39,6 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
-
-const isDark = () => theme.global.name.value === 'dark'
 </script>
 
 <template>
@@ -78,14 +72,7 @@ const isDark = () => theme.global.name.value === 'dark'
       </v-btn>
     </nav>
 
-    <v-btn
-      icon
-      variant="text"
-      :aria-label="isDark() ? 'Switch to light theme' : 'Switch to dark theme'"
-      @click="toggleTheme"
-    >
-      <v-icon>{{ isDark() ? 'mdi-weather-sunny' : 'mdi-weather-night' }}</v-icon>
-    </v-btn>
+    <ThemeToggle />
 
     <v-app-bar-nav-icon
       v-if="display.xs.value"
@@ -123,7 +110,7 @@ const isDark = () => theme.global.name.value === 'dark'
 }
 
 .app-header--scrolled {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .app-header__logo {

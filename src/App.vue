@@ -2,6 +2,7 @@
 import { ref, provide, watch } from 'vue'
 import { useSeoMeta } from './composables/useSeoMeta'
 import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 import HeroSection from './components/HeroSection.vue'
 import ContactPage from './components/ContactPage.vue'
 
@@ -59,5 +60,6 @@ provide('navigateTo', navigateTo)
         <p class="text-body-1 mt-2">This page is coming soon.</p>
       </v-container>
     </v-main>
+    <AppFooter />
   </v-app>
 </template>
