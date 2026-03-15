@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>New Contact Form Submission</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+  <h2 style="color: #1867C0; border-bottom: 2px solid #1867C0; padding-bottom: 10px;">
+    New Contact Form Submission
+  </h2>
+
+  <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <tr>
+      <td style="padding: 8px 12px; font-weight: bold; vertical-align: top; width: 100px;">Name:</td>
+      <td style="padding: 8px 12px;">{{ data.name }}</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 12px; font-weight: bold; vertical-align: top;">Email:</td>
+      <td style="padding: 8px 12px;">
+        <a href="mailto:{{ data.email }}">{{ data.email }}</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 12px; font-weight: bold; vertical-align: top;">Phone:</td>
+      <td style="padding: 8px 12px;">{{ data.phone }}</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 12px; font-weight: bold; vertical-align: top;">Message:</td>
+      <td style="padding: 8px 12px;">{{ data.message }}</td>
+    </tr>
+  </table>
+
+  <hr style="margin-top: 30px; border: none; border-top: 1px solid #eee;" />
+  <p style="color: #999; font-size: 12px;">
+    This email was sent from the website contact form.
+  </p>
+</body>
+</html>
